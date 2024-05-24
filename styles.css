@@ -45,3 +45,37 @@ body {
     margin-left: 260px;
     padding: 16px;
 }
+@media screen and (max-width: 768px) {
+    .sidebar {
+        width: 100px;
+    }
+
+    .sidebar ul li a {
+        text-align: center;
+        padding: 10px;
+    }
+
+    .sidebar ul li a img {
+        margin-right: 0;
+    }
+
+    .content {
+        margin-left: 110px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .sidebar {
+        width: 80px;
+    }
+
+    .sidebar ul li a {
+        text-align: center;
+        padding: 8px;
+        font-size: 14px;
+    }
+
+    .content {
+        margin-left: 90px;
+    }
+}
